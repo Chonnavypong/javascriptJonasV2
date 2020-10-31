@@ -20,6 +20,8 @@ document.querySelector('.check').addEventListener('click', function () {
   const guess = Number(document.querySelector('.guess').value)
   if (!guess) {
     showText('.message', 'No Number!')
+  } else if (guess < 0 || guess > 20) {
+    showText('.message', 'You put number out of range 1-20')
   } else if (guess === mathGuess) {
     showText('.message', 'You Win')
     document.querySelector('body').style.backgroundColor = '#60b347'
