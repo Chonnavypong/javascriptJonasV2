@@ -28,6 +28,7 @@ const calcTip = (bill) => {
   return [avgTips/bill.length, avgTotal/bill.length]
 }
 
+// E:\Code\javascript\javascriptBasicJonasV2\section_1
 
 let avg = calcTip(bills)
 console.log(`avg tips = ${avg[0]} and avg total payment = ${avg[1]}`)
