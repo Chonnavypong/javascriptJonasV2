@@ -1,4 +1,4 @@
-'use strict'
+"use strict";
 ///////////////////////////////////////
 // Object.create
 const PersonProto = {
@@ -13,9 +13,9 @@ const PersonProto = {
 };
 
 // const steven = Object.create(PersonProto);
-const steven = {}
-console.log(' 1 : ',steven);
-console.log('This ', this)
+const steven = {};
+console.log(" 1 :-> ", steven);
+console.log("This ", this);
 // steven.name = 'Steven';
 // steven.birthYear = 2002;
 // steven.calcAge();
